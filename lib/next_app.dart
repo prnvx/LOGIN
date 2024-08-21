@@ -19,6 +19,8 @@ class _NextAppState extends State<NextApp> {
     // Combine the contents of all text fields
     String combinedContent =
         'Name: ${_nameController.text}\nAddress: ${_addressController.text}\nAge: ${_ageController.text}';
+    void naappgi(){}
+
 
     // Navigate to NewApp and pass the combined content
     Navigator.push(
